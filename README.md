@@ -1,6 +1,5 @@
 # Formato-Paper-UNTREF
 
-# Algunas instrucciones
 
 ## Como usar esto?
 
