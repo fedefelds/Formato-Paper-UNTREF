@@ -21,7 +21,8 @@ las mismas deben estar en formato .png
 
 + el archivo plantilla_castellano.tex o plantilla_ingles.tex . Aca es donde se edita la mayor parte del tiempo
 
-Las carpetas 3 y 4 contienen archivos
+Las carpetas 3 y 4 contienen los mismos archivos que las carpetas 1 y 2, pero ya estan pre-editados, para ver a *LaTex* en accion y poder entender mejor como funciona. Tambien hay otros archivos que se crean a la hora de compilar el .tex
+por ejemplo el archivo de extension pdf, que representa el resultado final de nuestro trabajo.
 
 
 
