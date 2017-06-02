@@ -5,10 +5,10 @@
 
 en el repositorio hay 4 carpetas:
 
-1. *plantilla_castellano*
-2. *plantilla_ingles*
-3. *demo_castellano*
-4. *demo_ingles*
+1. *plantilla-castellano*
+2. *plantilla-ingles*
+3. *ejemplo-plantilla-castellano*
+4. *ejemplo-plantilla-ingles*
 
 Las carpetas 1 y 2 contienen plantillas listas para empezar a trabajar.
 
