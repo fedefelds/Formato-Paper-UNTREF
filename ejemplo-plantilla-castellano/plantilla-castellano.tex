@@ -3,36 +3,33 @@
 %\documentclass[journal,10pt,draftclsnofoot,onecolumn]{IEEEtran}
 %\usepackage{graphics,multirow,amsmath,amssymb,textcomp,subfigure,multirow,xspace,arydshln,cite}
 
-\usepackage[]{graphicx} 	% para manejar graficos
+\usepackage[]{graphicx}   % para manejar graficos
 
 \usepackage{caption}
 
 \usepackage{enumerate}    % para hacer listas numeradas
 
-\usepackage{amsmath}      	% no se..
+\usepackage{amsmath}        % no se..
 
-\usepackage{amsfonts} 		% no se..
+\usepackage{amsfonts}     % no se..
 
-\usepackage{authblk}		% para definir las afiliaciones de cada autor
+\usepackage{authblk}    % para definir las afiliaciones de cada autor
 
-\usepackage{layout}  		% no se..
+\usepackage{layout}     % no se..
 
-\usepackage{biblatex} 		% para manejar la bibliografia / referencias
+\usepackage{biblatex}     % para manejar la bibliografia / referencias
 
-\usepackage{lipsum}			% para generar texto random
+\usepackage{lipsum}     % para generar texto random
 
-\usepackage{multicol}		% para usar dos columnas
+\usepackage{multicol}   % para usar dos columnas
 
-\usepackage{palatino}		% para que la fuente sea palatino
+\usepackage{palatino}   % para que la fuente sea palatino
 
 \usepackage[utf8]{inputenc} % para poder usar tildes
 
-%https://tex.stackexchange.com/questions/82993/how-to-change-the-name-of-document-elements-like-figure-contents-bibliogr
-\renewcommand{\abstractname}{Resumen} 			% renombro los 'name macros' (mas info en el link de arriba)
-\renewcommand{\figurename}{Figura}				% renombro los 'name macros' (mas info en el link de arriba)
-\renewcommand{\contentsname}{Table of Contents} % renombro los 'name macros' (mas info en el link de arriba)
-\renewcommand{\tablename}{Tabla}        % renombro los 'name macros' (mas info en el link de arriba)
+\usepackage[spanish]{babel} % para escribir en español 
 
+\usepackage[sc,big,raggedright,bf]{titlesec} % para definir el formato del header de cada seccion. 
 
 \usepackage{geometry}
  \geometry{
@@ -47,7 +44,7 @@
 
 \graphicspath {{imagenes/}}
 
-\defbibheading{bibliography}{\centering} % para que bibtex no imponga su header cuando uso \printbibliography
+\defbibheading{bibliography}{\section{\refname}} % para que bibtex no imponga su header cuando uso \printbibliography, y que se use el de babel
 
 \addbibresource{bibliografia.bib} % para importar el archivo .bib
 
@@ -60,19 +57,19 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/multicol_hint.html
-\makeatletter 					% esto lo uso para poder definir figuras 
-\newenvironment{tablehere}		% esto lo uso para poder definir figuras 
-  {\def\@captype{table}}		% esto lo uso para poder definir figuras 
-  {}							% esto lo uso para poder definir figuras 
-  								% esto lo uso para poder definir figuras 
-\newenvironment{figurehere}		% esto lo uso para poder definir figuras 
-  {\def\@captype{figure}}		% esto lo uso para poder definir figuras 
-  {}							% esto lo uso para poder definir figuras 
-\makeatother					% esto lo uso para poder definir figuras 
+\makeatletter           % esto lo uso para poder definir figuras 
+\newenvironment{tablehere}    % esto lo uso para poder definir figuras 
+  {\def\@captype{table}}    % esto lo uso para poder definir figuras 
+  {}              % esto lo uso para poder definir figuras 
+                  % esto lo uso para poder definir figuras 
+\newenvironment{figurehere}   % esto lo uso para poder definir figuras 
+  {\def\@captype{figure}}   % esto lo uso para poder definir figuras 
+  {}              % esto lo uso para poder definir figuras 
+\makeatother          % esto lo uso para poder definir figuras 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 							ACA EMPIEZA EL DOCUMENTO                            %
+%               ACA EMPIEZA EL DOCUMENTO                            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -103,13 +100,13 @@
 \end{abstract}
 
 \begin{multicols}{2}
-\section{INTRODUCCIÓN}
+\section{Introducción}
 \lipsum[2]
-\section{TRABAJOS RELACIONADOS}
+\section{Trabajos Previos}
 \lipsum[3]
-\section{CONCEPTOS Y TERMINOS BÁSICOS}
+\section{Conceptos y términos básicos}
 \lipsum[4]
-\section{ARREGLO EXPERIMENTAL}
+\section{Arreglo experimental}
 \lipsum[5]
 \
 Para esta medición, se puede utilizar equipamiento simple y obtener resultados fiables.
@@ -120,7 +117,7 @@ El instrumental utilizado es el siguiente:
   \item Un generador de señales Nike
   \item Un Ford fiesta
 \end{itemize}
-\subsection{MÉTODO 1}
+\subsection{Método 1}
 \lipsum[6]
 Al variar $\omega$ entre $0$ y $2 \pi$, se obtiene la figura \ref{fig:circulo}:
 
@@ -131,10 +128,10 @@ Al variar $\omega$ entre $0$ y $2 \pi$, se obtiene la figura \ref{fig:circulo}:
  \label{fig:circulo}
 \end{figurehere}
 
-\subsection{MÉTODO 2} % SI APLICA
+\subsection{Método 2} % SI APLICA
 \lipsum[7]
 Se puede encontrar una demostración detallada en \cite{Sh:575} , \cite{Sh:572}.
-\subsection{MÉTODO 3} % SI APLICA
+\subsection{Método 3} % SI APLICA
 \
 \lipsum[8] En \cite{webster} se puede ver que:
 
@@ -143,8 +140,11 @@ Se puede encontrar una demostración detallada en \cite{Sh:575} , \cite{Sh:572}.
  \label{euler}
 \end{equation}
 La ecuancion \ref{euler} es conocida como la identidad de Euler.
-\section{RESULTADOS}
+
+\section{Resultados}
+
 La tabla \ref{Vgs} muestra la relacion entre las dos variables en cuestión:
+
 \begin{tablehere}
 \begin{center}
 \begin{tabular}{|c|c|c|c|}
@@ -165,11 +165,11 @@ col1 & col2 & col3 & col4 \\
 \lipsum[1]
 
 
-\section{ANÁLISIS DE RESULTADOS}
+\section{Análisis de resultados}
 \lipsum[1]
-\section{CONCLUSIÓN}
+\section{Conclusión}
 \lipsum[1]
-\section{REFERENCIAS}
+
 \printbibliography 
 \end{multicols}
  

@@ -1,37 +1,36 @@
 [0] Config.pm:324> INFO - This is Biber 2.1
 [0] Config.pm:327> INFO - Logfile is 'plantilla-castellano.blg'
-[52] biber-darwin:276> INFO - === Sat May 27, 2017, 16:30:18
-[53] Biber.pm:333> INFO - Reading 'plantilla-castellano.bcf'
-[152] Biber.pm:645> INFO - Found 3 citekeys in bib section 0
-[177] Biber.pm:2977> INFO - Processing section 0
-[203] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
-[205] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[208] bibtex.pm:895> INFO - Found BibTeX data source 'bibliografia.bib'
-[213] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 21, warning: 193 characters of junk seen at toplevel
-[213] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 43, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 55, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 68, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 81, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 94, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 106, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 119, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 135, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 147, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 155, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 167, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 180, warning: 1 characters of junk seen at toplevel
-[214] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 191, warning: 1 characters of junk seen at toplevel
-[215] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 203, warning: 1 characters of junk seen at toplevel
-[215] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 214, warning: 1 characters of junk seen at toplevel
-[215] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 226, warning: 1 characters of junk seen at toplevel
-[215] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 237, warning: 1 characters of junk seen at toplevel
-[215] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/Mpk7UCWDtJ/bibliografia.bib_31233.utf8, line 249, warning: 1 characters of junk seen at toplevel
-[216] Utils.pm:146> WARN - The field 'edition' in entry 'webster' cannot be null, deleting it
-[216] Utils.pm:146> WARN - The field 'isbn' in entry 'webster' cannot be null, deleting it
-[262] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[262] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[262] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
-[262] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
-[269] bbl.pm:505> INFO - Writing 'plantilla-castellano.bbl' with encoding 'UTF-8'
-[270] bbl.pm:596> INFO - Output to plantilla-castellano.bbl
-[270] Biber.pm:106> INFO - WARNINGS: 21
+[51] biber-darwin:276> INFO - === Mon Jun  5, 2017, 15:53:07
+[51] Biber.pm:333> INFO - Reading 'plantilla-castellano.bcf'
+[151] Biber.pm:645> INFO - Found 3 citekeys in bib section 0
+[173] Biber.pm:2977> INFO - Processing section 0
+[194] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
+[196] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[200] bibtex.pm:895> INFO - Found BibTeX data source 'bibliografia.bib'
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 21, warning: 193 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 43, warning: 1 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 55, warning: 1 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 68, warning: 1 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 81, warning: 1 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 94, warning: 1 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 106, warning: 1 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 119, warning: 1 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 135, warning: 1 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 147, warning: 1 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 155, warning: 1 characters of junk seen at toplevel
+[206] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 167, warning: 1 characters of junk seen at toplevel
+[207] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 180, warning: 1 characters of junk seen at toplevel
+[207] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 191, warning: 1 characters of junk seen at toplevel
+[207] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 203, warning: 1 characters of junk seen at toplevel
+[207] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 214, warning: 1 characters of junk seen at toplevel
+[207] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 226, warning: 1 characters of junk seen at toplevel
+[207] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 237, warning: 1 characters of junk seen at toplevel
+[207] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/7f/pmp9jk1d0gl8vbsg2qjfwdnr0000gn/T/bABBf5qbIY/bibliografia.bib_4368.utf8, line 249, warning: 1 characters of junk seen at toplevel
+[208] Utils.pm:146> WARN - The field 'edition' in entry 'webster' cannot be null, deleting it
+[208] Utils.pm:146> WARN - The field 'isbn' in entry 'webster' cannot be null, deleting it
+[249] UCollate.pm:66> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[249] UCollate.pm:66> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[249] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'es-ES'
+[255] bbl.pm:505> INFO - Writing 'plantilla-castellano.bbl' with encoding 'UTF-8'
+[256] bbl.pm:596> INFO - Output to plantilla-castellano.bbl
+[256] Biber.pm:106> INFO - WARNINGS: 21
