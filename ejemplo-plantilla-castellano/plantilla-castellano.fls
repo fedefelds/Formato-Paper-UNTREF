@@ -1,4 +1,4 @@
-PWD /Users/Fede/Box Sync/LaTeX/PLANTLLA PAPER UNTREF/plantilla-castellano
+PWD /Users/Fede/Documents/Github/Formato-Paper-UNTREF/ejemplo-plantilla-castellano
 INPUT /usr/local/texlive/2015/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -98,6 +98,13 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
@@ -108,8 +115,8 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
 INPUT plantilla-castellano.aux
 INPUT plantilla-castellano.aux
 OUTPUT plantilla-castellano.aux
@@ -176,10 +183,9 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsppl.fd
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsppl.fd
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplbc7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplbc7t.tfm
 OUTPUT plantilla-castellano.pdf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
@@ -196,13 +202,15 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplri7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplbc7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplbc7t.tfm
 INPUT imagenes/lathi.png
 INPUT ./imagenes/lathi.png
 INPUT ./imagenes/lathi.png
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplbc7t.vf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplri7t.vf
