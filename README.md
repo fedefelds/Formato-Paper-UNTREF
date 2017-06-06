@@ -3,31 +3,21 @@
 
 ## Como usar esto?
 
-en el repositorio hay 4 carpetas:
+en el repositorio hay 1 carpeta:
 
-1. *plantilla-castellano*
-2. *plantilla-ingles*
-3. *ejemplo-plantilla-castellano*
-4. *ejemplo-plantilla-ingles*
+1. *ejemplo-plantilla-castellano*
 
-Las carpetas 1 y 2 contienen plantillas listas para empezar a trabajar.
 
-ambas carpetas tienen :
+Las carpeta 1 contiene un ejemplo pre-editado, para ver a *LaTex* en accion y poder entender mejor como funciona. Tambien hay otros archivos que se crean a la hora de compilar el .tex
+por ejemplo el archivo de extension pdf, que representa el resultado final de nuestro trabajo.
+
+
+dicha carpeta incluye :
+
 + una carpeta en donde se deben guardar las imagenes a utilizar como figuras.
 las mismas deben estar en formato .png
 
 + el archivo bibliografia.tex, usado para manejar las fuentes bibliograficas
-
-
-+ el archivo plantilla_castellano.tex o plantilla_ingles.tex . Aca es donde se edita la mayor parte del tiempo
-
-Las carpetas 3 y 4 contienen los mismos archivos que las carpetas 1 y 2, pero ya estan pre-editados, para ver a *LaTex* en accion y poder entender mejor como funciona. Tambien hay otros archivos que se crean a la hora de compilar el .tex
-por ejemplo el archivo de extension pdf, que representa el resultado final de nuestro trabajo.
-
-
-
-
-
 
 ## FAQs
 Como hago para...
@@ -152,4 +142,3 @@ ahora puedo referirme a esta figura siempre que sea necesario usando `\ref{freqr
 para crear la seccion de referencias/bibliografia simplemente usar:
 
 `\printbibliography`
-
