@@ -27,9 +27,9 @@
 
 \usepackage[utf8]{inputenc} % para poder usar tildes
 
-\usepackage[spanish]{babel} % para escribir en español 
+\usepackage[spanish]{babel} % para escribir en español
 
-\usepackage[sc,big,raggedright,bf]{titlesec} % para definir el formato del header de cada seccion. 
+\usepackage[sc,big,raggedright,bf]{titlesec} % para definir el formato del header de cada seccion.
 
 \usepackage[font=small]{caption} % para que la fuente de un epigrafe no tenga el mismo tamaño que el cuerpo del texto
 
@@ -59,17 +59,17 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/multicol_hint.html
-\makeatletter           % esto lo uso para poder definir figuras 
-\newenvironment{tablehere}    % esto lo uso para poder definir figuras 
-  {\def\@captype{table}}    % esto lo uso para poder definir figuras 
-  
-  {}              % esto lo uso para poder definir figuras 
-                  % esto lo uso para poder definir figuras 
-\newenvironment{figurehere}   % esto lo uso para poder definir figuras 
-  {\def\@captype{figure}}   % esto lo uso para poder definir figuras 
+\makeatletter           % esto lo uso para poder definir figuras
+\newenvironment{tablehere}    % esto lo uso para poder definir figuras
+  {\def\@captype{table}}    % esto lo uso para poder definir figuras
+
+  {}              % esto lo uso para poder definir figuras
+                  % esto lo uso para poder definir figuras
+\newenvironment{figurehere}   % esto lo uso para poder definir figuras
+  {\def\@captype{figure}}   % esto lo uso para poder definir figuras
   {\par\medskip}
-  {}              % esto lo uso para poder definir figuras 
-\makeatother          % esto lo uso para poder definir figuras 
+  {}              % esto lo uso para poder definir figuras
+\makeatother          % esto lo uso para poder definir figuras
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -153,7 +153,7 @@ La tabla \ref{Vgs} muestra la relacion entre las dos variables en cuestión:
 \begin{center}
 \begin{tabular}{|c|c|c|c|}
 \hline
-$V_{GS}$ [V] & $I_{D}$ [A] & Temperatura [$C^{o}$] & $\frac{V_{GS}}{I_D}$ [$\Omega$] \\ 
+$V_{GS}$ [V] & $I_{D}$ [A] & Temperatura [$C^{o}$] & $\frac{V_{GS}}{I_D}$ [$\Omega$] \\
 \hline
 col1 & col2 & col3 & col4 \\
 
@@ -166,6 +166,7 @@ col1 & col2 & col3 & col4 \\
 \label{Vgs}
 \end{center}
 \end{tablehere}
+
 \lipsum[1]
 
 
@@ -174,9 +175,9 @@ col1 & col2 & col3 & col4 \\
 \section{Conclusión}
 \lipsum[1]
 
-\printbibliography 
+\printbibliography
 \end{multicols}
- 
 
 
-\end{document} 
+
+\end{document}
