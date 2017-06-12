@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  12 JUN 2017 09:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  12 JUN 2017 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,41 +919,41 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 94--103
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 114.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 112.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 114.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 112.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 114.
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 129.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 131.
 
 <imagenes/lathi.png, id=11, 701.62125pt x 631.35875pt>
 File: imagenes/lathi.png Graphic file (type png)
 
 <use imagenes/lathi.png>
-Package pdftex.def Info: imagenes/lathi.png used on input line 135.
+Package pdftex.def Info: imagenes/lathi.png used on input line 137.
 (pdftex.def)             Requested size: 227.62204pt x 204.82307pt.
  [2 <./imagenes/lathi.png>]
-Underfull \hbox (badness 5681) in paragraph at lines 184--184
+Underfull \hbox (badness 5681) in paragraph at lines 186--186
 []\OT1/ppl/m/n/10 Saharon She-lah. ``Ce-llu-la-rity of free pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 []\OT1/ppl/m/n/10 Saharon She-lah. ``Co-lou-ring and non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 \OT1/ppl/m/n/10 productivity of $\OMS/cmsy/m/n/10 @[]$\OT1/ppl/m/n/10 -cc''. En
 : \OT1/ppl/m/it/10 An-nals of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 \OT1/ppl/m/it/10 Pu-re and Ap-plied Lo-gic \OT1/ppl/m/n/10 84 (1997). ar-
  []
 
@@ -969,7 +969,7 @@ Package logreq Info: Writing requests to 'plantilla-castellano.run.xml'.
 Here is how much of TeX's memory you used:
  11124 strings out of 493089
  177899 string characters out of 6134842
- 708547 words of memory out of 5000000
+ 710547 words of memory out of 5000000
  14427 multiletter control sequences out of 15000+600000
  26090 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -989,7 +989,7 @@ ts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/p
 alatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on plantilla-castellano.pdf (3 pages, 186717 bytes).
+Output written on plantilla-castellano.pdf (3 pages, 186389 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream

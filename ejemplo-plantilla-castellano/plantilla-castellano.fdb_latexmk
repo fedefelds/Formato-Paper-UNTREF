@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber plantilla-castellano"] 1497268933 "plantilla-castellano.bcf" "plantilla-castellano.bbl" "plantilla-castellano" 1497269366
+["biber plantilla-castellano"] 1497268933 "plantilla-castellano.bcf" "plantilla-castellano.bbl" "plantilla-castellano" 1497269903
   "bibliografia.bib" 1497268822 6707 075a3d38e524d596c92ad55c668cbb65 ""
-  "plantilla-castellano.bcf" 1497269366 100043 4465d11ac9a602784e345b969a1a011b ""
+  "plantilla-castellano.bcf" 1497269903 100043 4465d11ac9a602784e345b969a1a011b ""
   (generated)
-  "plantilla-castellano.bbl"
   "plantilla-castellano.blg"
-["pdflatex"] 1497269365 "plantilla-castellano.tex" "plantilla-castellano.pdf" "plantilla-castellano" 1497269366
+  "plantilla-castellano.bbl"
+["pdflatex"] 1497269902 "plantilla-castellano.tex" "plantilla-castellano.pdf" "plantilla-castellano" 1497269903
   "./imagenes/lathi.png" 1496714916 63115 f75b5628ecb1be76f8683b57bff914b9 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -136,13 +136,13 @@
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1461447283 3849859 d06f0633cadadb6f745f20b80feff1a8 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "imagenes/lathi.png" 1496714916 63115 f75b5628ecb1be76f8683b57bff914b9 ""
-  "plantilla-castellano.aux" 1497269366 2790 4b45341183c5c428142f168ea3ed8d05 ""
+  "plantilla-castellano.aux" 1497269903 2790 4b45341183c5c428142f168ea3ed8d05 ""
   "plantilla-castellano.bbl" 1497268934 2847 17bbf00e0be64cc0e096b47f31aabf5b "biber plantilla-castellano"
-  "plantilla-castellano.run.xml" 1497269366 2419 14fc972b1d9d6242c3434cbd98622764 ""
-  "plantilla-castellano.tex" 1497269364 5241 46620fd198ee2f7c8fc95c46100ba65f ""
+  "plantilla-castellano.run.xml" 1497269903 2419 14fc972b1d9d6242c3434cbd98622764 ""
+  "plantilla-castellano.tex" 1497269902 5311 1dfc01884f87518d1467a43b001928cf ""
   (generated)
   "plantilla-castellano.aux"
   "plantilla-castellano.run.xml"
-  "plantilla-castellano.bcf"
   "plantilla-castellano.pdf"
+  "plantilla-castellano.bcf"
   "plantilla-castellano.log"
