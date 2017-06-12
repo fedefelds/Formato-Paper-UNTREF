@@ -122,6 +122,10 @@ col1 & col2 & col3 & col4 \\
 col1 & col2 & col3 & col4 \\
 \hline
 \end{tabular}
+\caption{Variación de $\frac{V_{GS}}{I_D}$}
+\label{Vgs}
+\end{center}
+\end{tablehere}
 ```
 
 para mas informacion, ver: https://www.sharelatex.com/learn/Tables
