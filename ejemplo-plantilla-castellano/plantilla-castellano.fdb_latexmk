@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber plantilla-castellano"] 1496779746 "plantilla-castellano.bcf" "plantilla-castellano.bbl" "plantilla-castellano" 1497021966
-  "bibliografia.bib" 1496779669 6634 229ec5cd4cb01bc49d04f7d07a6ea693 ""
-  "plantilla-castellano.bcf" 1497021965 101922 f5891dca15d1a9d34dc6851870dfc804 ""
+["biber plantilla-castellano"] 1497268933 "plantilla-castellano.bcf" "plantilla-castellano.bbl" "plantilla-castellano" 1497269366
+  "bibliografia.bib" 1497268822 6707 075a3d38e524d596c92ad55c668cbb65 ""
+  "plantilla-castellano.bcf" 1497269366 100043 4465d11ac9a602784e345b969a1a011b ""
   (generated)
-  "plantilla-castellano.blg"
   "plantilla-castellano.bbl"
-["pdflatex"] 1497021964 "plantilla-castellano.tex" "plantilla-castellano.pdf" "plantilla-castellano" 1497021966
+  "plantilla-castellano.blg"
+["pdflatex"] 1497269365 "plantilla-castellano.tex" "plantilla-castellano.pdf" "plantilla-castellano" 1497269366
   "./imagenes/lathi.png" 1496714916 63115 f75b5628ecb1be76f8683b57bff914b9 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -118,6 +118,7 @@
   "/usr/local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.sty" 1284153563 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty" 1303254447 12029 04d7fdf76e0464c23b5aa3a727952d7c ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty" 1335995445 7075 bd0c34fbf1ae8fd1debd2a554e41b2d5 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grffile.sty" 1335995445 13538 872e26de97981a41d6a160ff20de30a7 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty" 1335995445 22417 c74ff4af6a1aa2b65d1924020edbbe11 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def" 1306616590 55368 3c8a0d99822330f2dfabc0dfb09ce897 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/preprint/authblk.sty" 1368488610 7016 985a983ce041cc8959cd31133cba0244 ""
@@ -135,13 +136,13 @@
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1461447283 3849859 d06f0633cadadb6f745f20b80feff1a8 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "imagenes/lathi.png" 1496714916 63115 f75b5628ecb1be76f8683b57bff914b9 ""
-  "plantilla-castellano.aux" 1497021965 2789 228ccbbf0a4072ec8c3077cb7d248c50 ""
-  "plantilla-castellano.bbl" 1496779747 2845 757b437a1175423c6f16e61ce38fec0f "biber plantilla-castellano"
-  "plantilla-castellano.run.xml" 1497021965 2419 14fc972b1d9d6242c3434cbd98622764 ""
-  "plantilla-castellano.tex" 1497021964 5093 fbd03b60f7806890e7120856705d0d4b ""
+  "plantilla-castellano.aux" 1497269366 2790 4b45341183c5c428142f168ea3ed8d05 ""
+  "plantilla-castellano.bbl" 1497268934 2847 17bbf00e0be64cc0e096b47f31aabf5b "biber plantilla-castellano"
+  "plantilla-castellano.run.xml" 1497269366 2419 14fc972b1d9d6242c3434cbd98622764 ""
+  "plantilla-castellano.tex" 1497269364 5241 46620fd198ee2f7c8fc95c46100ba65f ""
   (generated)
-  "plantilla-castellano.run.xml"
   "plantilla-castellano.aux"
+  "plantilla-castellano.run.xml"
   "plantilla-castellano.bcf"
   "plantilla-castellano.pdf"
   "plantilla-castellano.log"
