@@ -76,3 +76,30 @@
 \makeatother          % esto lo uso para poder definir figuras
 
 \renewcommand{\headrulewidth}{0pt} % para que no haya linea decorativa en el header.
+
+% defino \figura
+\newcommand{\figura}[3]{
+% \vspace{0.2 cm}
+\begin{figurehere}
+\centering
+\includegraphics[width=\linewidth]{#1}
+\captionof{figure}{#2}
+\label{#3}
+\end{figurehere}
+% \vspace{0.2 cm}
+}
+
+% defino \tabla
+\newcommand{\tabla}[4]{
+% \vspace{0.3 cm}
+\begin{tablehere}
+\begin{center}
+\begin{tabular}{#1}
+#2
+\end{tabular}
+\caption{#3}
+\label{#4}
+\end{center}
+\end{tablehere}
+% \vspace{0.3 cm}
+}
