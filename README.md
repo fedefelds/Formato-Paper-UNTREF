@@ -14,26 +14,51 @@ por ejemplo el archivo de extension pdf, que representa el resultado final de nu
 
 dicha carpeta incluye :
 
-+ una carpeta en donde se deben guardar las imagenes a utilizar como figuras.
++ una serie de archivos con extension .tex
+
++ el archivo bibliografia.bib, cuya tarea es alojar las fuentes bibliograficas.
+
++ una carpeta llamada 'imagenes' en donde se deben guardar las imagenes a utilizar como figuras.
 las mismas deben estar en formato .png
 
-+ el archivo bibliografia.tex, usado para manejar las fuentes bibliograficas
++ un archivo .log
+
+
+
 
 ## FAQs
 Como hago para...
++ que son los archivos .tex?
++ que es el archivo bibliografia.bib?
++ que es la carpeta imagenes?
++ que es el archivo .log?
++ como editar el archivo .bib
++ como creo una seccion?
++ como creo crear una subseccion?
++ como creo una lista?
++ como creo una ecuacion numerada?
++ como creo una ecuacion sin numerar?
++ como creo escribo una ecuacion matematica (inline)?
++ como creo una figura?
++ como cito una referencia?
++ como creo una tabla?
++ como creo la seccion con las referencias
 
-+ editar el archivo .bib
-+ crear una seccion
-+ crear una subseccion
-+ crear una lista
-+ mostrar una ecuacion numerada
-+ mostrar una ecuacion sin numerar
-+ escribir una ecuacion matematica (inline)
-+ insertar una figura
-+ citar una referencia
-+ crear una tabla
-+ crear la seccion con las referencias
 
+### que son los archivos .tex?
+Los archivos .tex son la base de nuestro trabajo. Estos archivos son los que vamos a pasar editando la mayoria del tiempo.
+Seria algo parecido a el archivo .doc que usabamos con word. 
+En esta plantilla tenemos varios archivos de extension tex. Los mas destacados son main.tex y preamble.tex
+El primero es, como indica el nombre, el archivo principal. En main.tex incluimos todos los demas archivos .tex mediante 
+el comando \input{}. Esto nos permite poder editar las distintas partes del documento por separado. Esto es muy util a la hora
+de hacer trabajos medianos o grandes, ya que ayuda a mantener las cosas mas ordenadas. Cada vez que leamos una linea que diga "\input{algo}', es como si en esa linea esten escritos todos los contenidos de algo.tex . Asi vamos construyendo nuestros documentos de forma ordenada y prolija.
+
+En cuanto a premable.tex, este archivo es el que permite que nuestro documento se vea tal como se ve. 
+En el se detallan todos los paquetes de latex a usar y sus parametros. Se recomienda averiguar que 
+paquetes son usados y como se usan para lograr un mejor entendimiento de como usar LaTeX.
+
+los demas archivos .tex son fragmentos del documento que representan secciones del mismo. Por ejemplo, conclusion.tex
+contiene la conclusion del trabajo y es incluido mediante \input{conclusion}
 
 
 ### editar el archivo .bib
